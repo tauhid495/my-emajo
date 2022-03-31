@@ -5,10 +5,10 @@ import './Header.css';
 const Header = () => {
     return (
         <nav className='header'>
-            <img src={logo} alt="" />
+            <a href="/home"><img src={logo} alt="" /></a>
             <div>
                 <a href="/shop">Shop</a>
-                <a href="/orders">Order</a>
+                <a href="/order">Order</a>
                 <a href="/inventory">Inventory</a>
                 <a href="/about">About</a>
             </div>
